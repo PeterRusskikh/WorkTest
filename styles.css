@@ -1,0 +1,140 @@
+@import url(normalize.css);
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	color: #000;
+	font-family: "Roboto";
+}
+.header {
+	background-color: #E5E5E5;
+}
+.header__title {
+	padding-top: 100px;
+	text-align: center;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 56.25px;
+	color: #323232;
+}
+.header__subtitle {
+	margin-top: 40px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28.13px;
+	color: #323232;
+}
+.main {
+	padding: 80px 0 60px;
+	background-color: #E5E5E5;
+}
+.cards {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1140px;
+	margin: 0 auto;
+	gap: 30px;
+
+}
+.cards_item {
+	padding: 50px 30px 30px 30px;
+	max-width: 360px;
+	background-color: #FFFFFF;
+	height: 100%;
+	
+	
+}
+.cards_item * {
+	margin-top: 30px;
+	
+}
+.cards__img {
+	margin-top: 40px;
+}
+.cards__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42.19px;
+	color: #323232;
+	text-align: center;
+}
+.cards__description {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21.09px;
+}
+.cards__price {
+	text-align: center;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 28.13px;
+}
+.cards__btn-group {
+	border: 1px solid white;
+	position: relative;
+
+}
+.btn {
+	width: 300px;
+	height: 57px;
+	border-radius: 3px;
+	color: white;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 21.09px;
+}
+.cards__button:hover {
+	background-color: #22943C;
+}
+
+
+.cards__button {
+	background-color: #2CC34F;
+}
+.cards__button-add {
+	background-color: #22943C;
+	position: absolute;
+	top: 0;
+	display: none;
+}
+
+.footer {
+	max-width: 1140px;
+	margin: 0 auto;
+	height: 162px;
+	padding: 60px 0;
+}
+.footer__price {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42.19px;
+}
+.footer__price-sum {
+	color: #FF0000;
+}
+
+.btn{
+  width: 300px;
+	height: 57px;
+	border-radius: 3px;
+	color: white;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 21.09px;
+}
+.cards__button {
+  background-color: #2CC34F;
+}
+.cards__button:hover {
+  background-color: #22943C;
+}
+.cards__button-add {
+  background-color: #22943C;
+  display: none;
+}
+
+
+  
+ 
